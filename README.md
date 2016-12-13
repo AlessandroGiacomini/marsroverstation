@@ -22,8 +22,10 @@ In order to control a rover , NASA sends a simple string of letters. The possibl
 
 # Functions and features
 ----------------------
-+ Has been managed the case in which if the Rover arrives to a border it cannot move out the grid Plateau
-+ Assuming the input rover’s position inside the given Plateau dimensions
++ We assume that the input position Rover is inside the Plateau dimensions given as input
++ It has been managed the following case:
+  once getting on the border if the Rover tries to move outside the border grid
+  it is forced to remain in its current position and facing
 
 # Technologies used
 -----------------
